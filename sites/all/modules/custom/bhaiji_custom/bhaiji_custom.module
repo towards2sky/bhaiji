@@ -1,0 +1,11 @@
+<?php
+
+function bhaiji_custom_form_alter(&$form, &$form_state, $form_id) {
+    //print $form_id;
+    switch($form_id) {
+        case 'comment_node_article_form':
+        case 'comment_node_node_gallery_gallery_form':
+            $form['author']['homepage']['#access'] = FALSE;
+            break;
+    }
+}

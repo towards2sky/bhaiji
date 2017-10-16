@@ -1,0 +1,15 @@
+.sharethis-wrapper {
+    padding: 10px 0 10px 0;
+}
+
+footer li.comment-add {
+    padding-left: 5px;
+}
+
+form.comment-form label {
+    padding-right: 7px;
+}
+
+.view-archive ul li {
+    list-style-type:square;
+}

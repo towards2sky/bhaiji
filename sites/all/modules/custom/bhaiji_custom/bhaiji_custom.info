@@ -1,0 +1,7 @@
+name = custom
+description = "Custom development for site"
+package = Development
+core = 7.x
+
+project = "bhaiji_custom"
+
